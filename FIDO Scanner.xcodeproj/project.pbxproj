@@ -35,16 +35,6 @@
 			path = "FIDO Scanner";
 			sourceTree = "<group>";
 		};
-		22E947B72F43193E004EB8CF /* FIDO ScannerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "FIDO ScannerTests";
-			sourceTree = "<group>";
-		};
-		22E947C12F43193E004EB8CF /* FIDO ScannerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "FIDO ScannerUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				22E947A92F43193D004EB8CF /* FIDO Scanner */,
-				22E947B72F43193E004EB8CF /* FIDO ScannerTests */,
-				22E947C12F43193E004EB8CF /* FIDO ScannerUITests */,
 				22E947A82F43193D004EB8CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				22E947B62F43193E004EB8CF /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				22E947B72F43193E004EB8CF /* FIDO ScannerTests */,
-			);
 			name = "FIDO ScannerTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				22E947C02F43193E004EB8CF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				22E947C12F43193E004EB8CF /* FIDO ScannerUITests */,
 			);
 			name = "FIDO ScannerUITests";
 			packageProductDependencies = (
